@@ -71,7 +71,7 @@ static const struct arg args[] = {
     {cpu_perc, "[ ^c#68aad2^ %s%%]", NULL},
     {wifi_essid, " [ ^c#9ea6ca^ %s - ", "wlp3s0"},
     {wifi_perc, "^c#9ea6ca^ %s%%]", "wlp3s0"},
-    {run_command, "[墳 ^c#9ea6ca^ %s%%]",
+    {run_command, "[墳 ^c#9ea6ca^ %4s]",
      "amixer sget Master | grep -o -m 1 '\\[[[:digit:]]*%\\]'"},
     {datetime, "^c#9ea6ca^ %s", "%a %b %d - %I:%M%p"},
 };
